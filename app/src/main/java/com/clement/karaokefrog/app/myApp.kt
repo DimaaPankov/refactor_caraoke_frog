@@ -12,7 +12,9 @@ import com.onesignal.OneSignal
 import com.clement.karaokefrog.black.advertising_ID
 import com.clement.karaokefrog.black.doneUrl
 import com.clement.karaokefrog.black.mainUrl
-import com.clement.karaokefrog.parseSubs
+import com.clement.karaokefrog.settings.tokenAppsFlayer
+import com.clement.karaokefrog.settings.tokenOneSignal
+import com.clement.karaokefrog.utils.parseSubs
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -37,15 +39,15 @@ class myApp : Application() {
     private fun oneSignal(){
         OneSignal.setLogLevel(OneSignal.LOG_LEVEL.VERBOSE, OneSignal.LOG_LEVEL.NONE)
         OneSignal.initWithContext(this)
-        OneSignal.setAppId("b62d5215-3c31-4f04-af0f-1caf2ada1d1b")
+        OneSignal.setAppId(tokenOneSignal)
         OneSignal.promptForPushNotifications()
     }
 
     fun initAppsFlyer() {
-        val token = "rpaZQL27fJhjw4YbhmJVy8"
 
-        AppsFlyerLib.getInstance().init(token, AppsFlayerListner, applicationContext)
-        AppsFlyerLib.getInstance().start(applicationContext, token, object :
+
+        AppsFlyerLib.getInstance().init(tokenAppsFlayer, AppsFlayerListner, applicationContext)
+        AppsFlyerLib.getInstance().start(applicationContext, tokenAppsFlayer, object :
             AppsFlyerRequestListener {
             override fun onSuccess() {
                 Log.d("appsFlayer", "Launch sent successfully")

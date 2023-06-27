@@ -1,4 +1,4 @@
-package com.clement.karaokefrog
+package com.clement.karaokefrog.utils
 
 fun parseSubs(
     campaignName: String?,
