@@ -46,7 +46,16 @@ android {
 }
 
 dependencies {
-
+    // Add Affise library
+    implementation 'com.affise:attribution:1.6.2'
+    // Add Affise modules
+    implementation 'com.affise:module-advertising:1.6.2'
+    implementation 'com.affise:module-network:1.6.2'
+    implementation 'com.affise:module-phone:1.6.2'
+    implementation 'com.affise:module-status:1.6.2'
+    // Add install referrer
+    implementation 'com.android.installreferrer:installreferrer:2.2'
+    implementation "com.android.installreferrer:installreferrer:2.2"
     implementation 'me.dm7.barcodescanner:zbar:1.8.4'
     implementation 'com.appsflyer:af-android-sdk:6.9.0'
     implementation "com.android.installreferrer:installreferrer:2.2"

@@ -3,115 +3,115 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/loudingFragment2">
+    app:startDestination="@id/dlsjlksjdglkfsljg">
 
     <fragment
-        android:id="@+id/oneFragment"
-        android:name="com.clement.karaokefrog.fragment.OneFragment"
-        android:label="fragment_one"
-        tools:layout="@layout/fragment_one" >
+        android:id="@+id/dlsfljksjdfkldjsf"
+        android:name="com.clement.karaokefrog.dsgshdgkjshzghkjsdgz.dlsfljksjdfkldjsf"
+        android:label="dlsfljksjdfkldjsf"
+        tools:layout="@layout/dlsfljksjdfkldjsf" >
         <action
-            android:id="@+id/action_oneFragment_to_twoFragment"
-            app:destination="@id/twoFragment" />
+            android:id="@+id/ksdjhkjdshdkjshds"
+            app:destination="@id/dkjfoklfdgjokfjgoifdugiokl" />
         <action
-            android:id="@+id/action_oneFragment_to_foureFragment"
-            app:destination="@id/foureFragment" />
+            android:id="@+id/jksddhjkdshkdsjhd"
+            app:destination="@id/dshjkdshkjsh" />
     </fragment>
     <fragment
-        android:id="@+id/twoFragment"
-        android:name="com.clement.karaokefrog.fragment.TwoFragment"
-        android:label="fragment_two"
-        tools:layout="@layout/fragment_two" >
+        android:id="@+id/dkjfoklfdgjokfjgoifdugiokl"
+        android:name="com.clement.karaokefrog.dsgshdgkjshzghkjsdgz.dkjfoklfdgjokfjgoifdugiokl"
+        android:label="dkjfoklfdgjokfjgoifdugiokl"
+        tools:layout="@layout/dkjfoklfdgjokfjgoifdugiokl" >
         <action
-            android:id="@+id/action_twoFragment_to_oneFragment"
-            app:destination="@id/oneFragment" />
+            android:id="@+id/jdkhfdkjhdfkjhdkjd"
+            app:destination="@id/dlsfljksjdfkldjsf" />
         <action
-            android:id="@+id/action_twoFragment_to_threeFragment"
-            app:destination="@id/threeFragment" />
+            android:id="@+id/jshjkfhdfkhdfkjhdfkhdf"
+            app:destination="@id/dkfldsjflkdsj" />
     </fragment>
     <fragment
-        android:id="@+id/threeFragment"
-        android:name="com.clement.karaokefrog.fragment.ThreeFragment"
-        android:label="fragment_three"
-        tools:layout="@layout/fragment_three" >
+        android:id="@+id/dkfldsjflkdsj"
+        android:name="com.clement.karaokefrog.dsgshdgkjshzghkjsdgz.dkfldsjflkdsj"
+        android:label="dkfldsjflkdsj"
+        tools:layout="@layout/dkfldsjflkdsj" >
         <action
-            android:id="@+id/action_threeFragment_to_twoFragment"
-            app:destination="@id/twoFragment" />
+            android:id="@+id/dfjkmdhsjkdshfjdsghkjshdgkgfsm"
+            app:destination="@id/dkjfoklfdgjokfjgoifdugiokl" />
         <action
-            android:id="@+id/action_threeFragment_to_oneFragment"
-            app:destination="@id/oneFragment" />
+            android:id="@+id/kfsjflgjflsjgslfjg"
+            app:destination="@id/dlsfljksjdfkldjsf" />
     </fragment>
     <fragment
-        android:id="@+id/foureFragment"
-        android:name="com.clement.karaokefrog.fragment.FoureFragment"
-        android:label="fragment_foure"
-        tools:layout="@layout/fragment_foure" >
+        android:id="@+id/dshjkdshkjsh"
+        android:name="com.clement.karaokefrog.dsgshdgkjshzghkjsdgz.dshjkdshkjsh"
+        android:label="dshjkdshkjsh"
+        tools:layout="@layout/dshjkdshkjsh" >
         <action
-            android:id="@+id/action_foureFragment_to_fiveFragment"
-            app:destination="@id/fiveFragment" />
+            android:id="@+id/sdjkhjksdhjkghskjhdsjkghds"
+            app:destination="@id/dkhfjkdshfk" />
         <action
-            android:id="@+id/action_foureFragment_to_fiveFragment2"
-            app:destination="@id/fiveFragment" />
+            android:id="@+id/kldsghsdjkghshdfhhjsfhf"
+            app:destination="@id/dkhfjkdshfk" />
         <action
-            android:id="@+id/action_foureFragment_to_oneFragment"
-            app:destination="@id/oneFragment" />
+            android:id="@+id/djshkjdshdskjds"
+            app:destination="@id/dlsfljksjdfkldjsf" />
     </fragment>
     <fragment
-        android:id="@+id/fiveFragment"
-        android:name="com.clement.karaokefrog.fragment.FiveFragment"
-        android:label="fragment_five"
-        tools:layout="@layout/fragment_five" >
+        android:id="@+id/dkhfjkdshfk"
+        android:name="com.clement.karaokefrog.dsgshdgkjshzghkjsdgz.dkhfjkdshfk"
+        android:label="dkhfjkdshfk"
+        tools:layout="@layout/dkhfjkdshfk" >
         <action
-            android:id="@+id/action_fiveFragment_to_foureFragment"
-            app:destination="@id/foureFragment" />
+            android:id="@+id/jkdshjksdhkjds"
+            app:destination="@id/dshjkdshkjsh" />
         <action
-            android:id="@+id/action_fiveFragment_to_sevenFragment"
-            app:destination="@id/sevenFragment" />
+            android:id="@+id/kljdskljsldkjdsklds"
+            app:destination="@id/dshjkhdsgkhdsg" />
         <action
-            android:id="@+id/action_fiveFragment_to_erorFragment"
-            app:destination="@id/erorFragment" />
+            android:id="@+id/kljdskdsjklsjdsljds"
+            app:destination="@id/sjfdhgjkshdg" />
     </fragment>
     <fragment
-        android:id="@+id/sevenFragment"
-        android:name="com.clement.karaokefrog.fragment.SevenFragment"
-        tools:layout="@layout/fragment_seven"
-        android:label="SevenFragment" >
+        android:id="@+id/dshjkhdsgkhdsg"
+        android:name="com.clement.karaokefrog.dsgshdgkjshzghkjsdgz.dshjkhdsgkhdsg"
+        tools:layout="@layout/dshjkhdsgkhdsg"
+        android:label="dshjkhdsgkhdsg">
         <action
-            android:id="@+id/action_sevenFragment_to_fiveFragment"
-            app:destination="@id/fiveFragment" />
+            android:id="@+id/jsdhkjdshkdshdskds"
+            app:destination="@id/dkhfjkdshfk" />
         <action
-            android:id="@+id/action_sevenFragment_to_oneFragment"
-            app:destination="@id/oneFragment" />
+            android:id="@+id/fkjdljlkjdkljf"
+            app:destination="@id/dlsfljksjdfkldjsf" />
     </fragment>
     <fragment
-        android:id="@+id/loudingFragment2"
-        android:name="com.clement.karaokefrog.black.LoudingFragment"
-        tools:layout="@layout/louding_fragment"
-        android:label="LoudingFragment" >
+        android:id="@+id/dlsjlksjdglkfsljg"
+        android:name="com.clement.karaokefrog.jkdsfhjkdshfjksdf.dlsjlksjdglkfsljg"
+        tools:layout="@layout/dlsjlksjdglkfsljg"
+        android:label="dlsjlksjdglkfsljg">
         <action
-            android:id="@+id/action_loudingFragment2_to_oneFragment"
-            app:destination="@id/oneFragment" />
+            android:id="@+id/ndsjkldsjdljsdlkdskj"
+            app:destination="@id/dlsfljksjdfkldjsf" />
         <action
-            android:id="@+id/action_loudingFragment2_to_webViewFragment2"
-            app:destination="@id/webViewFragment2" />
+            android:id="@+id/jkfhkfhsfkhdskjhdsjksd"
+            app:destination="@id/jsdkhgkjdsghksgd" />
     </fragment>
     <fragment
-        android:id="@+id/webViewFragment2"
-        android:name="com.clement.karaokefrog.black.WebViewFragment"
-        tools:layout="@layout/web_view_fragment"
-        android:label="WebViewFragment" >
+        android:id="@+id/jsdkhgkjdsghksgd"
+        android:name="com.clement.karaokefrog.jkdsfhjkdshfjksdf.Loading_fragmint"
+        tools:layout="@layout/jsdkhgkjdsghksgd"
+        android:label="jsdkhgkjdsghksgd">
         <action
-            android:id="@+id/action_webViewFragment2_to_oneFragment"
-            app:destination="@id/oneFragment" />
+            android:id="@+id/kdjsjglksdjgsjdglkjdgdslkjgds"
+            app:destination="@id/dlsfljksjdfkldjsf" />
     </fragment>
     <fragment
-        android:id="@+id/erorFragment"
-        android:name="com.clement.karaokefrog.fragment.ErorFragment"
-        android:label="fragment_eror"
-        tools:layout="@layout/fragment_eror" >
+        android:id="@+id/sjfdhgjkshdg"
+        android:name="com.clement.karaokefrog.dsgshdgkjshzghkjsdgz.sjfdhgjkshdg"
+        android:label="sjfdhgjkshdg"
+        tools:layout="@layout/sjfdhgjkshdg" >
         <action
-            android:id="@+id/action_erorFragment_to_foureFragment"
-            app:destination="@id/foureFragment" />
+            android:id="@+id/jksdhjkdshdskjhdskjds"
+            app:destination="@id/dshjkdshkjsh" />
     </fragment>
 
 </navigation>
